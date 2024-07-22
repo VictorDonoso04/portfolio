@@ -1,0 +1,52 @@
+*{
+    color:#fff;
+}
+
+.projetos{
+    align-items: center;
+    gap: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem; 
+}
+
+.projeto__titulo {
+    align-items: center;
+    font-size: 2.25rem;
+    color: #fff;
+    text-align: center;
+}
+.geradordesenha{
+    gap: 1.25rem;
+}
+.geradordesenha__imagem {
+    margin: auto;
+    border-bottom: #fff;
+}
+
+.descricaogerador {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.tabela_fipe__imagem {
+    margin: auto;
+}
+.descricaofipe {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    gap: 1.25rem;
+}
+.tabelafipe {
+    gap: 1.25rem;
+}
+
+.container__video { 
+    text-align: center;
+}
+
+.video__chatbot{
+    margin: 0 auto;
+    height: 560px;
+    width: 765px;
+}

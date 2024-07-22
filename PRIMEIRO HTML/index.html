@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <script src="JavaScript/script.js" defer></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/p1.css">
+    <link rel="stylesheet" href="style/contatos.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/projetos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <span class="logo">Donoso</span>
+        <div class="nav-wrapper">
+            <nav class="header__nav">
+                <ul class="ul">
+                    <li class="link"><a class="nav__a" href="#quemsoueu">Quem Sou Eu</a></li>
+                    <li class="link"><a class="nav__a" href="#projetos">Meus Projetos</a></li>
+                    <li class="link"><a class="nav__a" href="#contatos">Meus Contatos</a></li>
+                </ul>
+            </nav>
+            <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="header__icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg></button>
+        </div>
+        <button class="btn">Me Contrate!</button>
+    </header>
+    <section class="p1">
+        <div class="qm1"><h1 class="__qmsoueutitulo">Quem Sou Eu</h1>
+            <h4 class="quemsoueu">Olá, meu nome é Victor Henrique Donoso e tenho 19 anos.  Sou um iniciante apaixonado pela programação, sempre buscando aprender e evoluir nesta área fascinante. Minha jornada no mundo da tecnologia começou com estudos autodidatas e a criação de projetos que me permitiram explorar e dominar linguagens como NodeJS, JavaScript, HTML e CSS.
+            Apesar de estar no início da minha carreira, já tenho experiência prática significativa através de projetos pessoais  Que me ajudaram a entender melhor os desafios e as recompensas do vimento de software. A cada linha de código escrita, sinto a excitação de criar soluções que podem impactar positivamente a vida desenvoldas pessoas.
+            Estou entusiasmado para continuar minha jornada, aprimorando minhas habilidades e contribuindo para projetos que façam a diferença. Acredito que a combinação de minha paixão pela programação e meu desejo constante de aprender me tornará um profissional cada vez mais capacitado e inovador.          
+            </div>
+        <div class="qm2"><img src="fotos/ft_perfil.jpg" alt="Foto_De_Perfil" class="perfil"></div>
+    </section>
+    <div><h1 id="projetos" class="projeto__titulo">Meus Projetos</h1></div>
+    <section class="projetos">
+        <div class="geradordesenha"><img src="fotos/geradordesenha1.png" alt="Foto_Do_Gerador_De_Senhas" class="geradordesenha__imagem"><h4 class="descricaogerador">Projeto Criado com o Objetivo de testar minhas habilidades usando o JavaScript e um pouco de HTML e CSS Simples. O objetivo principal seria criar uma senha com segurança para o usuário.</h4></div>
+        <div class="tabelafipe"><img src="fotos/tabela_fipe.png" alt="Foto_Fipe" class="tabela_fipe__imagem"><h4 class="descricaofipe">Projeto com objetivo de mostrar a FIPE dos carros usando JavaScript, CSS, HTML e PHP. Mostrando todas informações de fábrica do veículo.</h4></div>
+    </section>
+    <div class="container__video"><iframe src="https://www.youtube.com/embed/mpCRPOWy8D0" frameborder="0" class="video__chatbot"></iframe></div>
+    <section class="contatos">
+        <h1 id="contatos" class="__meuscontatos_header">Meus Contatos!</h1>
+        <h4 class="text__contatos">Aqui estão alguns dos meus contatos onde você pode me chamar em caso de Interesse!</h4>
+        <div class="social__links">
+            <a href="https://www.linkedin.com/in/victor-donoso-9bb73825a/" class="linkedin__link" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="img__linkedin">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                Meu LinkedIn
+            </a>
+            <a href="https://github.com/VictorDonoso04" class="github__link" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="img__github">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.76c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                Meu GitHub
+            </a>
+        </div>
+        <div class="contact-section">
+            <h2>Entre em Contato</h2>
+            <p class="contact-header">Coloque suas informações</p>
+            <form class="contact-form" action="seu-endereco-de-envio" method="post">
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Sua mensagem aqui..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div> 
+    </section>
+    <footer class="text__footer">Créditos Victor Donoso</footer>
+</body>
+</html>
